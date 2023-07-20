@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.register{
+	position:relative;
+	width:50%;
+	margin:100px auto;
+}
+.register form input{
+	width:100%;
+	margin:5px 0;
+	padding:8px;
+	height:38px;
+	border:1px solid #0000001f;
+	border-radius:4px;
+}
+.register form input:focus{
+	outline:3px solid #BDD6Fc;
+}
+.register form select{
+	width:100%;
+	height:38px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.register form textarea{
+	width:100%;
+	height:50%;
+	border:1px solid #0000001f;
+	border-radius:4px;
+	padding:10px;
+	margin-top:10px;
+	font-size:15px;
+}
+.register form textarea:focus{
+	outline:3px solid #BDD6Fc;
+}
+.register form h1{
+	text-align:center;
+	color:#E91E63;
+	margin:10px;
+	font-weight:bold;
+	
+	
+}
+.register form select{
+	font-size:16px;
+	color:black;
+	border:1px solid #0000001f;
+	border-radius:4px;
+}
+.register form select:focus{
+	outline:3px solid #BDD6Fc;
+}
+.register form p{
+	font-size:15px;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+	text-align:justify;
+}
+.register form .btn{
+	width:100px;
+	height:45px;
+	border-radius:5px;
+	background:#C30846;
+	cursor:pointer;
+	font-size:20px;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+	outline:0;
+	font-weight:bold;
+	transition:all 0.5s;
+	margin-top:10px;
+}
+.register form .btn:hover{
+	background-color:#C30846;
+	letter-spacing:4px;
+}
